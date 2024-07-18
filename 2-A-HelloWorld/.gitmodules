@@ -1,0 +1,6 @@
+[submodule "2-A-HelloWorld"]
+	path = 2-A-HelloWorld
+	url = https://github.com/tamanna-bohra/CS19P21-ARPA.git
+[submodule "2-B-BackgroundProcessREC"]
+	path = 2-B-BackgroundProcessREC
+	url = https://github.com/tamanna-bohra/CS19P21-ARPA.git
