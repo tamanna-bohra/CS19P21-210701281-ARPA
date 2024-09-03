@@ -1,0 +1,144 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1153.3333333333333,920" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="512,855.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="450,96.66666666666667" sap2010:WorkflowViewState.IdRef="Comment_1" Text="TAMANNA 210701281 CSE-E" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="450,532" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="64f7fa7a-9117-44c9-a2dc-5a7ac60c4c14" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,272.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Title'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Description'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='h6' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='p' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="354,185.33333333333334" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" Version="V3">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable BrowserURL="https://www.uipath.com/resources/automation-whitepapers" CvTextArea="1307, 536, 49, 21" CvTextArgument="Next" CvType="Text" DesignTimeRectangle="1282, 508, 127, 78" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl class='Pagination__Next-Button' parentid='gatsby-focus-wrapper' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='Pagination__Next-Button' parentid='gatsby-focus-wrapper' tag='A' type='' aaname='Next&amp;gt;' check:innerText='Next&amp;gt;' /&gt;" Guid="15a2aea3-becd-46a6-ac3a-821aa9431f69" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Download Automation &amp;amp; RPA White papers, eGuides | UiPath' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="11, -539, 1895, 3987" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='gatsby-focus-wrapper' tag='DIV' /&gt;" Guid="55d845a1-c46a-4981-8964-d959b85bb15f" InformativeScreenshot="87d159c71882c1e2193a61f28f72b260.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Download Automation &amp;amp; RPA White papers, eGuides | UiPath' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="3c5873994c86fa85ecd729482d832ea0.jpg" Selector="&lt;html app='chrome.exe' title='Download Automation &amp;amp; RPA White papers, eGuides | UiPath' /&gt;" Title="Download Automation &amp; RPA White papers, eGuides | UiPath" Url="https://www.uipath.com/resources/automation-whitepapers" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="450,138.66666666666666" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" WorkbookPath="Results.xlsx" />
+  </Sequence>
+</Activity>
